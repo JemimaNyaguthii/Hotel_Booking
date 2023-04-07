@@ -1,6 +1,5 @@
 
 body{ 
-
 margin:0%;
 font-family: system-ui;
 
@@ -9,6 +8,8 @@ font-family: system-ui;
 background-color: aqua;
 background-image: url(background.jpg);
 height: 600px;
+background-size: cover;
+padding-top: 1%;
 
 
 }
@@ -220,9 +221,10 @@ margin-left: 40%;
 .content{
 /* display:flex;/ */
 /* margin-top: 7%; */
-/* margin-top: 20%; */
- margin-left: 20%;
+/* margin-top: 20%; */    
+    
 }
+
 .subscribe{
 margin-left: 3%;
 background-color: #339af0;
@@ -352,6 +354,7 @@ padding-top:10px;
     border-radius: 10px;
     
 }
+
 #seemore{
     background-color: #339af0;
     border-style: none;
